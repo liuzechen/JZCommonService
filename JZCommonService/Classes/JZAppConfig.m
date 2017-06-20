@@ -11,6 +11,7 @@
 @implementation JZAppConfig
 
 + (void)init {
+    NSLog(@"初始化配置");
 
 }
 
