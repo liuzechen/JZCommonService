@@ -14,6 +14,7 @@
 		C59B797B1EF8EE9800045F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C59B797A1EF8EE9800045F5B /* Assets.xcassets */; };
 		C59B797E1EF8EE9800045F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C59B797C1EF8EE9800045F5B /* LaunchScreen.storyboard */; };
 		C59B79881EF8EECC00045F5B /* JZColorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B79871EF8EECC00045F5B /* JZColorTools.m */; };
+		C59B798B1EF90EFC00045F5B /* JZAppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = C59B798A1EF90EFC00045F5B /* JZAppConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		C59B797F1EF8EE9800045F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C59B79861EF8EECC00045F5B /* JZColorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZColorTools.h; sourceTree = "<group>"; };
 		C59B79871EF8EECC00045F5B /* JZColorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZColorTools.m; sourceTree = "<group>"; };
+		C59B79891EF90EFC00045F5B /* JZAppConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JZAppConfig.h; sourceTree = "<group>"; };
+		C59B798A1EF90EFC00045F5B /* JZAppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JZAppConfig.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				C59B79861EF8EECC00045F5B /* JZColorTools.h */,
 				C59B79871EF8EECC00045F5B /* JZColorTools.m */,
+				C59B79891EF90EFC00045F5B /* JZAppConfig.h */,
+				C59B798A1EF90EFC00045F5B /* JZAppConfig.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			files = (
 				C59B79761EF8EE9800045F5B /* ViewController.m in Sources */,
 				C59B79881EF8EECC00045F5B /* JZColorTools.m in Sources */,
+				C59B798B1EF90EFC00045F5B /* JZAppConfig.m in Sources */,
 				C59B79731EF8EE9800045F5B /* AppDelegate.m in Sources */,
 				C59B79701EF8EE9800045F5B /* main.m in Sources */,
 			);
@@ -328,6 +334,7 @@
 				C59B79841EF8EE9800045F5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
