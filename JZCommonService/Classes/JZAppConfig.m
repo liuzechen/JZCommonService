@@ -11,7 +11,7 @@
 @implementation JZAppConfig
 
 + (void)init {
-    [self appearance];
+
 }
 
 + (void)appearance {

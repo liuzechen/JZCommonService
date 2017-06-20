@@ -11,5 +11,6 @@
 @interface JZAppConfig : NSObject
 
 + (void)init;
++ (void)appearance;
 
 @end
